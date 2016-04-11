@@ -27,7 +27,7 @@
         <DockPanel HorizontalAlignment="Left" Height="100" LastChildFill="False" Margin="0,-184,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
-        <Label x:Name="label" Content="Wiko" Foreground="#FFEA0D0D"/>
+        <Label x:Name="label" Content="label" Foreground="#FFEA0D0D"/>
 
 
     </StackPanel>
