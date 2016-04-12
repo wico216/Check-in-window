@@ -34,7 +34,7 @@
             <Label Grid.Row="0" Grid.Column="3" Content="ForceCheckOut" Background="#FF606060" Foreground="#FFF3F3F3" />
         </Grid>
         <Rectangle Fill="#FF3C3C3C" Height="80" Stroke="Black" Width="528" />
-        <Label x:Name="label2" Content="Check In / Out" Canvas.Left="77" Canvas.Top="15" FontSize="28" Foreground="#FFF3F3F3" RenderTransformOrigin="0.5,0.5" FontFamily="Yu Gothic UI Light" >
+        <Label Content="Check In / Out" Canvas.Left="77" Canvas.Top="15" FontSize="28" Foreground="#FFF3F3F3" RenderTransformOrigin="0.5,0.5" FontFamily="Yu Gothic UI Light" >
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -44,13 +44,13 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Image Source="butt_clockOUT.png" Canvas.Left="442" Canvas.Top="84" />
-        <Image Source="butt_clockIN.png" Canvas.Left="28" Canvas.Top="83" />
+        <Image x:Name="ClockOut" Source="butt_clockOUT.png" Canvas.Left="442" Canvas.Top="84" />
+        <Image x:Name="ClockIn"   Source="butt_clockIN.png" Canvas.Left="28" Canvas.Top="83" />
         <Image Source="titleIcon_ClockingINOUT.png" Canvas.Top="6" Canvas.Left="10" />
-        <Button Height="30" Width="30" Background="#FF4AA6FF" Canvas.Left="459" Canvas.Top="3">
+        <Button x:Name="Minimize" Height="30" Width="30" Background="#FF4AA6FF" Canvas.Left="459" Canvas.Top="3">
             <Image Source="icon_minimize.jpg" Width="20" Margin="0,22,0,0" />
         </Button>
-        <Button Height="30" Width="30" Background="#FF4AA6FF" Canvas.Left="494" Canvas.Top="3">
+        <Button x:Name="Close" Height="30" Width="30" Background="#FF4AA6FF" Canvas.Left="494" Canvas.Top="3">
             <Image Source="the_x.png"/>
         </Button>
     </Canvas>
