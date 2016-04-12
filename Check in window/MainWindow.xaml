@@ -16,7 +16,7 @@
     <Canvas>
 
         <Label x:Name="label" Content="check out" Foreground="#FFF67F61"  Canvas.Left="423" Canvas.Top="158" FontSize="20" FontFamily="Yu Gothic UI Light" />
-        <Label x:Name="label1" Content="check in" Canvas.Left="13" Canvas.Top="160" Foreground="#FFB8FF53" FontSize="20" FontFamily="Yu Gothic UI Light" />
+        <Label x:Name="label1" Content="check in" Canvas.Left="13" Canvas.Top="155" Foreground="#FFB8FF53" FontSize="20" FontFamily="Yu Gothic UI Light" />
 
         <Grid Margin="10,200,10,10" RenderTransformOrigin="0.478,0.493" Height="221" VerticalAlignment="Top" Background="#FFF3F3F3" Width="508">
             <Grid.RowDefinitions>
@@ -47,5 +47,11 @@
         <Image Source="butt_clockOUT.png" Canvas.Left="442" Canvas.Top="84" />
         <Image Source="butt_clockIN.png" Canvas.Left="28" Canvas.Top="83" />
         <Image Source="titleIcon_ClockingINOUT.png" Canvas.Top="6" Canvas.Left="10" />
+        <Button Height="30" Width="30" Background="#FF4AA6FF" Canvas.Left="459" Canvas.Top="3">
+            <Image Source="icon_minimize.jpg" Width="20" Margin="0,22,0,0" />
+        </Button>
+        <Button Height="30" Width="30" Background="#FF4AA6FF" Canvas.Left="494" Canvas.Top="3">
+            <Image Source="the_x.png"/>
+        </Button>
     </Canvas>
 </Window>
